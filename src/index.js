@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
+// axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://dlh-backend-i3yvr.ondigitalocean.app/dlh-be2/api';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
