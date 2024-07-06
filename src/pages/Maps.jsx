@@ -61,7 +61,7 @@ import Search from "../icons/search.png"
 
     const getTps = async () => {
       try{
-        const dataTps = await axios.get("https://dlh-backend-i3yvr.ondigitalocean.app/dlh-be2/api/tps");
+        const dataTps = await axios.get("https://dlh-be-phsfy.ondigitalocean.app/dlh-be2/api/tps");
           setTps(dataTps.data.data);
         }catch(e){
         // console.log(e);
